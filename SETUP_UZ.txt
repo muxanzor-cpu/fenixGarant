@@ -1,0 +1,17 @@
+GAMEGARANT NETLIFY — QISQA O'RNATISH
+
+1) Netlify'da loyihangizni GitHub repo bilan ulang.
+2) Ushbu papkaning ichidagi HAMMA faylni repo root'iga joylang.
+3) Netlify -> Data & Storage -> Database -> Create a database.
+4) Environment Variables yarating:
+   ADMIN_SECRET = juda uzun maxfiy kalit
+   ADMIN_USERNAME = FenixVertex
+   ADMIN_PASSWORD = o'zingizning kuchli parolingiz
+   ADMIN_NAME = Fenix Vertex
+5) Deploy qiling.
+6) Database migration avtomatik ishlaydi.
+7) Test: ikki xil telefon/brauzerda 2 ta account yarating.
+8) Birinchi account Brawl Stars e'lonini joylasin.
+9) Ikkinchi account Brawl Stars kategoriyasini ochganda e'lon serverdan keladi.
+
+Eslatma: Netlify Database PostgreSQL. HTMLning o'zi emas, Netlify Functions database bilan ishlaydi.
